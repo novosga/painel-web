@@ -403,7 +403,6 @@
     // defaults
     ctx.config.locale = ctx.config.locale || 'en'
     ctx.config.theme = ctx.config.theme || ctx.themes[0].id
-    console.log(ctx.config.theme)
     ctx.config.themeOptions = ctx.config.themeOptions || {}
     ctx.config.services = ctx.config.services || []
     ctx.config.alert = ctx.config.alert || audio.alertsAvailable.Default
