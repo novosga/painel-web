@@ -13,6 +13,7 @@
   "settings.interface.theme_options": "Opções do tema",
   "settings.interface.colors": "Cores",
   "settings.label.theme": "Tema",
+  "settings.label.logo": "Logo",
   "settings.label.page_bg_color_normal": "Fundo da página (Normal)",
   "settings.label.page_font_color_normal": "Fonte da página (Normal)",
   "settings.label.page_bg_color_priority": "Fundo da página (Prioridade)",
@@ -43,6 +44,7 @@
   "settings.label.services": "Serviços",
   "settings.label.alert": "Alerta",
   "settings.label.speech_enabled": "Vocalizar (experimental!!!)",
+  "settings.label.retries": "Tentativas antes de exibir erro de rede",
   "settings.btn.save": "Salvar",
   "settings.services.empty": "Nenhum serviço",
   "date_format": "DD [de] MMMM [de] YYYY"

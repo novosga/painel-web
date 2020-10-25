@@ -388,6 +388,15 @@
             </div>
           </div>
 
+          <div class="field">
+            <label class="label">
+              {{ 'settings.label.retries'|trans }}
+            </label>
+            <div class="control">
+              <input class="input is-medium" type="text" placeholder="" v-model="config.retries">
+            </div>
+          </div>
+
           <hr>
 
           <div class="field is-grouped is-grouped-right">
@@ -512,6 +521,7 @@
     ctx.config.locale = ctx.config.locale || 'en'
     ctx.config.theme = ctx.config.theme || ctx.themes[0].id
     ctx.config.themeOptions = ctx.config.themeOptions || {}
+    ctx.config.retries = ctx.config.retries || 5
     ctx.config.services = ctx.config.services || []
     ctx.config.alert = ctx.config.alert || audio.alertsAvailable.Default
 

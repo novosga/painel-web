@@ -6,7 +6,7 @@
           <featured :message="lastMessage" v-if="lastMessage" @blink="playAudio" :fontColor="color('featuredFontColor', 'pageFontColor')"></featured>
         </header>
         <footer class="column" :style="{ 'background-color': color('footerBgColor'), 'color': color('footerFontColor') }">
-          <img :src="logoUrl" class="is-pulled-left">
+          <img :src="logoUrl" class="is-pulled-left" alt="">
           <h1 class="is-pulled-left" v-if="config.themeOptions.footerText" :style="{ 'color': color('footerFontColor') }">
             {{ config.themeOptions.footerText }}
           </h1>
